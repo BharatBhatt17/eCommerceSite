@@ -54,7 +54,7 @@ function ProductListPage() {
 
   return (
     <div>
-      <div className="p-2 bg-gray-100 p-10 py-16">
+      <div className=" bg-gray-100 p-10 py-16">
         <div className="bg-white p-24">
           <div className=" flex justify-end gap-1">
             <input

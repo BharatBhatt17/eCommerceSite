@@ -46,7 +46,7 @@ function ProductDetail({ onAddToCart }) {
     <>
       <div className="p-10 bg-gray-100">
         <Link to="/">
-          <MdKeyboardBackspace className="h-10 w-10 mb-10 border border-2 border-black hover:text-orange hover:scale-110 bg-white" />
+          <MdKeyboardBackspace className="h-10 w-10 mb-10 border-2 border-black hover:text-orange hover:scale-110 bg-white" />
         </Link>
 
         <div className=" flex flex-col sm:flex-row sm:p-20 bg-white ">
@@ -86,7 +86,7 @@ function ProductDetail({ onAddToCart }) {
           <div className="hover:scale-110 bg-white">
             {id > 1 && (
               <Link
-                className="p-2  border border-2 border-black text-black flex items-center gap-2 text-xl hover:text-orange "
+                className="p-2  border-2 border-black text-black flex items-center gap-2 text-xl hover:text-orange "
                 to={"/products/" + (id - 1)}
               >
                 <AiOutlineArrowLeft className="text-2xl " />
@@ -96,7 +96,7 @@ function ProductDetail({ onAddToCart }) {
           </div>
           <div className="hover:scale-110 bg-white">
             <Link
-              className="p-2  border border-2 border-black text-black flex items-center gap-2 text-xl hover:text-orange "
+              className="p-2 border-2 border-black text-black flex items-center gap-2 text-xl hover:text-orange "
               to={"/products/" + (id + 1)}
             >
               <AiOutlineArrowRight className="text-2xl" />

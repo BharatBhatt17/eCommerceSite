@@ -10,12 +10,15 @@ function Navbar({ productCount }) {
           <img src="https://trycasuals.com/wp-content/uploads/2019/06/print-1-1.svg" />{" "}
         </Link>
       </div>
-      <div className="flex flex-col items-center ">
-        <BiShoppingBag className="h-12 w-12 text-orange" />
-        <span className="-mt-8 text-orange text-lg font-bold">
-          {productCount}
-        </span>
-      </div>
+
+      <Link to="/addtocart">
+        <div className="flex flex-col items-center ">
+          <BiShoppingBag className="h-12 w-12 text-orange" />
+          <span className="-mt-8 text-orange text-lg font-bold">
+            {productCount}
+          </span>
+        </div>
+      </Link>
     </div>
   );
 }

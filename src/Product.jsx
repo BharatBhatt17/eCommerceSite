@@ -9,7 +9,7 @@ function Product({ thumbnail, category, title, price, id }) {
       <div className="text-lg font-bold">{title}</div>
       <div className="text-sm font-bold">RS.{price}</div>
       <Link
-        className="text-white bg-orange border border-2 border-black px-3 "
+        className="text-white bg-orange border-2 border-black px-3 "
         to={"/products/" + id}
       >
         View Detail
