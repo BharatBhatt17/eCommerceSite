@@ -9,7 +9,7 @@ import {
 function Footer() {
   return (
     <div className="bg-footer p-8  text-white pt-20">
-      <div className="sm:flex sm:grid sm:grid-cols-4 sm:gap-12 flex flex-col items-center sm:items-start gap-5 ">
+      <div className="x sm:grid sm:grid-cols-4 sm:gap-12 flex flex-col items-center sm:items-start gap-5 ">
         <div className="sm:flex">
           <div>
             <img src="https://trycasuals.com/wp-content/uploads/2019/06/print-favicon-free-img-1.png"></img>

@@ -1,5 +1,6 @@
 import React from "react";
 import { BiShoppingBag } from "react-icons/bi";
+import { CgProfile } from "react-icons/cg";
 import { Link } from "react-router-dom";
 
 function Navbar({ productCount }) {
@@ -11,14 +12,21 @@ function Navbar({ productCount }) {
         </Link>
       </div>
 
-      <Link to="/addtocart">
-        <div className="flex flex-col items-center ">
+      <div>
+        <Link to="/Login">
+          <CgProfile className="h-12 w-12 text-orange" />
+        </Link>
+      </div>
+
+      <div className="flex flex-col items-center ">
+        <Link to="/addtocart">
           <BiShoppingBag className="h-12 w-12 text-orange" />
-          <span className="-mt-8 text-orange text-lg font-bold">
-            {productCount}
-          </span>
-        </div>
-      </Link>
+        </Link>
+
+        <span className="-mt-8 text-orange text-lg font-bold">
+          {productCount}
+        </span>
+      </div>
     </div>
   );
 }
